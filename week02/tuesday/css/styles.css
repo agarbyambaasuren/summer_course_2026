@@ -1,0 +1,17 @@
+#Naadam{background-color: yellow;}
+.naadam-units{background-color: turquoise; color: tomato;text-align: right;border: 5px solid rgba(25 55 115);
+border-top-color:#2341ab ;
+border-top-style: dashed;
+border-top-width: 2px;
+border-left-color:#868faf ;
+border-left-style: dashed;
+border-left-width: 4px;
+border-right-color:#0437f1 ;
+border-right-style: dashed;
+border-right-width: 5px;
+border-bottom-style:dashed;
+border-bottom-color:#253570;
+border-bottom-width: 3px;
+}
+h2{border: solid purple 5px;}
+

@@ -1,0 +1,52 @@
+#image-gallery {
+    background-color: rgb(255, 0, 0);
+    color: aquamarine;
+    border: 5px solid rgb(193, 203, 41);
+}
+
+#image01 {
+    border: 5px solid blue;
+    height: 300px;
+    width: 300px;
+}
+
+#image02 {
+    border: 3px dashed black;
+    height: 300px;
+    width: 300px
+}
+
+#image03 {
+    border: 5px dotted yellow;
+    height: 300px;
+    width: 300px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    
+}
+
+section {
+    display: inline-block; 
+}
+
+#image01 {
+    padding: 20px;
+    
+}
+
+#image02 {
+    padding: 30px; 
+}
+
+#image03 {
+    padding-right: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+#image01{margin-left: 350px;}
+#image02{margin-left:200px }
+#image03{margin-left:200px}
