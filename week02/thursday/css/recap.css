@@ -1,0 +1,89 @@
+.boxes {
+    width: 50px;
+    height: 20px;
+    color: white;
+    background-color: aqua;
+    border-style: 3px solid violet;
+    display: inline-block;
+}
+
+#box1 {
+    border-style: dotted;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 90px;
+}
+
+#box2 {
+    border-style: dashed;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 222px;
+}
+
+#box3 {
+    border-style: solid;
+    border-radius: 50%;
+}
+
+#box4 {
+    border-style: groove
+}
+
+#box5 {
+    border-style: double
+}
+
+.img {
+    border: 5px solid brown;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin-left: 19%;
+    padding: 30px;
+}
+
+#img-container {
+    width: 1440;
+    margin: 0 auto;
+}
+
+.centered {
+    width: 800px;
+    height: 200px;
+    background-color: wheat;
+    margin: 10px 20px;
+}
+
+.card {
+    max-width: 320px;
+    margin: 20px auto;
+    padding: 24px;
+    border: 1px solid #e2e8f0;
+    border-top: 4px solid #4f46e5;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.card-name {
+    color: black;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-bottom: 4px;
+    border-top: blue;
+}
+
+.card-role {
+    color: blue;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+    border-top:green;
+}
+
+.card-bio {
+    color: gray;
+    line-height: 1.6;
+    margin-top: 10px;
+   border-top: pink;
+   border-radius: 50%; 
+}
+.class{margin: 20px auto;border-radius: 20px;padding: 20px;}

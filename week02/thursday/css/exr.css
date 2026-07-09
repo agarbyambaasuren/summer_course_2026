@@ -1,0 +1,11 @@
+#body {
+    background-color: cadetblue;
+}
+
+#circ {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: lightsalmon;
+}
+#lr{background-color: pink;color: lightpink;}
