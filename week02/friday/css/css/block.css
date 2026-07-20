@@ -1,0 +1,14 @@
+.block {
+    height: 50px;
+    width: 600px;
+    background-color: greenyellow;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    display: inline;
+
+}
+img {width: 25%;display: block;}
+.Menu{background-color: #454d62;
+height: 37px;padding-top: 10px;}
+.btn {height: 50px;width: 70px;color: white;text-decoration: none;border: 2px solid black;margin:6.5%;padding: auto;}

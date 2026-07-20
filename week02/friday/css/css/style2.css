@@ -1,0 +1,15 @@
+main {background-color: yellowgreen;
+width: 500px;
+height:500px;
+border: 2px solid rgba(99, 99, 99, 0.5);
+margin:auto}
+section {width: 300px;
+height: 80px;
+background-color: turquoise;
+margin: 30px;
+overflow: scroll;}
+#box{width: 250px;
+margin: 0 auto;
+border: 5px solid dotted aquamarine;}
+#inner-box{border: 5px red solid;
+box-sizing: content-box;}

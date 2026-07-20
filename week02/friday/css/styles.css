@@ -1,0 +1,19 @@
+main {
+    width: 800px;
+    height: 600px;
+    background-color: aqua;
+    color: aquamarine;
+}
+
+h2 {
+    color: lemonchiffon;
+}
+
+p {
+    border: 2px dotted blueviolet;
+    padding: 10px;
+}
+
+body {
+    background-color: bisque;
+}
