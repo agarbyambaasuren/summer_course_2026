@@ -1,0 +1,19 @@
+.flex-container {
+    border: 2px solid aqua;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.flexchild {
+    width: 50px;
+    height: 20px;
+    background-color: yellow;
+    border: 2px solid black;
+    /* display: inline-block; */
+    /* margin-left: 6%; */
+    /* margin-right: 6%; */
+    
+}

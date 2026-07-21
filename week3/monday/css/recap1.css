@@ -1,0 +1,99 @@
+.list {background-color: black;height: 70px; width: 300px;padding: 12px 20px;}
+.list li{
+    color: white;
+    text-decoration: none;
+    padding: 8px 14px;
+    margin-right: 6px;
+    border-radius: 6px;
+transition: background-color 0.2s;
+list-style: none;
+display: inline;
+}
+.list li:hover{background-color: #334155;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
