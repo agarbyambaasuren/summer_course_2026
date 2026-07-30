@@ -72,13 +72,11 @@ footer {
     .cards {
         grid-template-columns: 1fr 1fr 1fr;
         max-width: 960px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        margin: 0 auto;
     }
 }
 
-@media print{
+@media print {
 
     header,
     footer,
