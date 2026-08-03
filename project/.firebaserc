@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "summer-course-2026-agar"
+  },
+  "targets": {
+    "summer-course-2026-agar": {
+      "hosting": {
+        "project": [
+          "my-site1-app"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
