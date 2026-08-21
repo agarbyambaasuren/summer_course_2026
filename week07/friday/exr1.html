@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="./exr1.js"></script>
+    <script src="p5.min.js"></script>
+    <h1>Catch The Target</h1>
+    <div class="game-info">
+        
+        <div>
+            Score:
+            <span id="score-value">0</span>
+        </div>
+
+        <div>
+            Lives:
+            <span id="lives-value">3</span>
+        </div>
+    </div>
+    <div class="controls">
+
+        <label for="difficulty-select">
+            Difficulty
+        </label>
+
+        <select id="difficulty-select">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+
+        <button id="start-button">
+            Start
+        </button>
+
+        <button id="reset-button">
+            Reset
+        </button>
+    </div>
+
+    <div id="canvas-container"></div>
+</body>
+</html>

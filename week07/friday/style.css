@@ -1,0 +1,8 @@
+body{display: flex;align-items: center;background-color:whitesmoke ;flex-direction: column;justify-content: center;gap: 50px;}
+.game-info{display: flex;}
+.controls{display: flex;}
+button{padding: 25px;}
+#canvas-container{display: flex;align-items: center;justify-content: center;}
+canvas{border: 5px;}
+#score-value{font-weight: bold; }
+#lives-value{font-weight: bold;}

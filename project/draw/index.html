@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .toolbox {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(79, 95, 195);">
+    <div class="toolbox"
+        style="width: 100%; height: 100px; border: solid 10px cornflowerblue; background-color: rgb(243, 243, 234);">
+        <div style="height: 50px; width: 50px;margin-left: 5%;">
+            <button style="height: 70px; width: 70px; border-radius: 50px;border: 0;background-color: rgb(246, 255, 0);" class="circleBrush">Pen/Circle brush</button>
+        </div>
+        <div style="height: 50px; width: 100px; margin-top: 80px;margin-left: -80px">
+            <label style="height: 50px; width: 50px; border-radius: 0;margin-left: 60px;">
+                <input type="number" class="circleWidth" name="width" min="1" max="100" step="1" value="10">
+            </label>
+        </div>
+        <div style="height: 50px; width: 100px;">
+            <button style="height: 70px; width: 70px; border-radius: 0; margin-left: 45%;border: 0;background-color: aqua;"
+                class="squareBrush">Square
+                brush</button>
+        </div>
+        <div style="height: 50px; width: 50px;margin-top: 80px; margin-left:5%;">
+            <label style="height: 50px; width: 50px; border-radius: 0;margin-left: -70px;">
+                <input type="number" class="squareWidth" name="quantity" min="1" max="100" step="1" value="10">
+            </label>
+        </div>
+        <div style="margin-left: -300px;margin-top: 75px;" class="circleBrushColor"> <input type="color"
+                id="circleBrushColor"></div>
+        <div style="margin-left: 75px;margin-top: 75px;" class="squareBrushColor"> <input type="color"
+                id="squareBrushColor"></div>
+        <div style="height: 50px; width: 50px;">
+            <button style="height: 70px; width: 70px; border-radius: 0; margin-left: 150%;background-color: azure;"class="eraser"
+                >Eraser</button>
+        </div>
+        <div style="height: 50px; width: 50px; margin-top: 80px;margin-left: 35px;">
+            <label style="height: 50px; width: 50px; border-radius: 0;">
+                <input type="number" class="eraserWidth" name="quantity" min="1" max="900" step="1" value="10">
+            </label>
+        </div>
+        <div style="margin-left: 100px;"><input type="color"class="backgroundColor" style="width: 100px;height: 100px;">
+    <div id="canvas-container" style="margin-top: 120px;margin-left: -350px;"></div></div>
+
+    <script src="./js/p5.min.js"></script>
+    <script src="./js/draw.js"></script>
+</body>
+
+</html>                                                                                                           
